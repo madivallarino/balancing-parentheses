@@ -1,6 +1,19 @@
 function balancingParentheses(string) {
-  // type your code here
+
+  leftcount = ""
+  rightcount = ""
+ 
+  for (let i =0; i < string.length; i++){
+      if (leftcount === "(" ){
+        leftcount += string[i]
+      }else {
+
+      }
+  }
+
 }
+
+
 
 if (require.main === module) {
   // add your own tests in here
